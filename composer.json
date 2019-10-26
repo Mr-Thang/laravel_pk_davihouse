@@ -1,0 +1,27 @@
+{
+    "name": "hh-repository/package",
+    "description": "Building Mini Package for real estate projects",
+	"keywords": [
+        "laravel",
+        "repository",
+        "repository pattern",
+        "eloquent",
+        "repositories"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ho Thang",
+            "email": "thanghuuna@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "CMS\\Package\\": "src/"
+        }
+    }
+}
